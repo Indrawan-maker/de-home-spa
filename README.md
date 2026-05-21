@@ -85,9 +85,6 @@ ini ada di .env.example
 ```
 
 
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
