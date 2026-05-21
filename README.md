@@ -36,63 +36,54 @@
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
 
-- IDEAL (Keadaan yang Diinginkan): Masyarakat Samarinda dapat mengakses layanan pijat dan perawatan tubuh profesional dengan mudah, cepat, dan personal tanpa harus terjebak kemacetan, kebingungan memilih menu, atau ketakutan akan ketidakcocokan tekanan pijat. Setiap individu mendapatkan rekomendasi treatment yang tepat berdasarkan keluhan spesifik mereka, dengan terapis yang memahami preferensi tekanan sejak awal, sehingga pengalaman relaksasi menjadi efektif, menyenangkan, dan bebas stres.
-- REALITY (Keadaan Saat Ini): This section is used to describe the current or “as is” state of the process or product.
-- CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
-  This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
+- IDEAL (Keadaan yang Diinginkan): Pengguna bisa memesan pijat yang sesuai keluhan secara instan dari rumah, tanpa bingung memilih treatment atau khawatir tekanan tidak cocok.
+- REALITY (Keadaan Saat Ini): Website booking pijat umumnya hanya menampilkan daftar panjang treatment dengan istilah teknis (30+ pilihan) tanpa panduan personal. Tidak ada konsultasi, preferensi tekanan pengabaikan, sehingga pengguna sering salah pilih dan kecewa.
+- CONSEQUENCES: Jika tidak diperbaiki, pengguna meninggalkan website, bisnis kehilangan pelanggan, dan potensi pasar layanan home service tidak optimal.
 
-Following this format will result in a workable document that can be used to understand the problem and elicit
-requirements that will lead to a winning solution.
 
 ## 💡 Idea / Solution <a name = "idea"></a>
 
-This section is used to describe potential solutions.
-
-Once the ideal, reality, and consequences sections have been
-completed, and understood, it becomes easier to provide a solution for solving the problem.
+de HOME SPA – landing page booking pijat dengan AI + WhatsApp. Pengguna menulis keluhan (bahasa sehari-hari), AI tiga model berlapis (GPT-OSS-120B, Llama-3.3-70B, Llama-3.1-8B) via Groq API langsung memberi rekomendasi treatment (nama, durasi, aroma, tekanan) + tips pereda sakit. Preferensi tekanan (lembut/normal/keras) terbaca otomatis. Booking cukup form singkat (nama, alamat, jadwal, no HP, metode bayar) lalu pesan terkirim ke admin via WA. Website juga punya pricelist interaktif 26+ treatment, 4 durasi, modal pilih harga, tanpa database & login, responsif Tailwind CSS. Proses booking < 1 meni
 
 ## ⛓️ Dependencies / Limitations <a name = "limitations"></a>
 
-- What are the dependencies of your project?
-- Describe each limitation in detailed but concise terms
-- Explain why each limitation exists
-- Provide the reasons why each limitation could not be overcome using the method(s) chosen to acquire.
-- Assess the impact of each limitation in relation to the overall findings and conclusions of your project, and if
-  appropriate, describe how these limitations could point to the need for further research.
-
+- Hanya untuk wilayah samarinda
+- Ini karena de home spa masih belum membuka cabang di tempat lain
+- Jika di seluruh tempat, contoh: biaya akan menambah 1 juta hanya untuk tiker pesawat
 ## 🚀 Future Scope <a name = "future_scope"></a>
 
-Write about what you could not develop during the course of the Hackathon; and about what your project can achieve
-in the future.
+ini bisa ditingkatkan lagi dengan banyak fitur seperti:
+- detail perkepala atau tangan dan kaki yg bisa diklik
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development
-and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Ikuti instruksi ini menjalankana project di environment anda sendiri
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+sebelum menjalankan project pastikan anda menginstall nodejs
 
 ```
-Give examples
+node -v
 ```
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
+Setelah anda clone project pastikan anda mengikuti step ini
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+menginstall semua dependency project
 
 ```
-until finished
+npm install
 ```
+
+mengambil key env grok ai, fontee, midtrans anda
+
+```
+ini ada di .env.example
+```
+
 
 ## 🎈 Usage <a name="usage"></a>
 
@@ -100,20 +91,13 @@ Add notes about how to use the system.
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+
+- [NextJs](https://www.nextjs..org) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+- [@mufacoders](https://github.com/kylelobo) - ai recomendation
+- [@Indrawan-maker](https://github.com/kylelobo) - Payment gateway and clickable human body
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors)
-who participated in this project.
 
-## 🎉 Acknowledgments <a name = "acknowledgments"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
