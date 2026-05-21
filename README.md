@@ -35,13 +35,9 @@
 
 ## 🧐 Problem Statement <a name = "problem_statement"></a>
 
-It is useful to design and follow a specific format when writing a problem statement. While there are several options
-for doing this, the following is a simple and straightforward template often used in Business Analysis to maintain
-focus on defining the problem.
 
-- IDEAL: This section is used to describe the desired or “to be” state of the process or product. At large, this section
-  should illustrate what the expected environment would look like once the solution is implemented.
-- REALITY: This section is used to describe the current or “as is” state of the process or product.
+- IDEAL (Keadaan yang Diinginkan): Masyarakat Samarinda dapat mengakses layanan pijat dan perawatan tubuh profesional dengan mudah, cepat, dan personal tanpa harus terjebak kemacetan, kebingungan memilih menu, atau ketakutan akan ketidakcocokan tekanan pijat. Setiap individu mendapatkan rekomendasi treatment yang tepat berdasarkan keluhan spesifik mereka, dengan terapis yang memahami preferensi tekanan sejak awal, sehingga pengalaman relaksasi menjadi efektif, menyenangkan, dan bebas stres.
+- REALITY (Keadaan Saat Ini): This section is used to describe the current or “as is” state of the process or product.
 - CONSEQUENCES: This section is used to describe the impacts on the business if the problem is not fixed or improved upon.
   This includes costs associated with loss of money, time, productivity, competitive advantage, and so forth.
 
