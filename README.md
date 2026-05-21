@@ -6,7 +6,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Pemesanan tukang pijat online
     <br> 
 </p>
 
@@ -75,12 +75,13 @@ ini ada di .env.example
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
 
-- [NextJs](https://www.nextjs..org) - Web Framework
+- [NextJs](https://www.nextjs.org) - Web Framework
+- [Shadcn](https://www.nextjs.org) - UI library
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@mufacoders](https://github.com/kylelobo) - ai recomendation
+- [@mufacoders](https://github.com/kylelobo) - ai recomendation and wa gateway
 - [@Indrawan-maker](https://github.com/kylelobo) - Payment gateway and clickable human body
 
 
