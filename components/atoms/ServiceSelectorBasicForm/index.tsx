@@ -189,9 +189,7 @@ Terima kasih.
                 onSuccess: (result: MidtransResponse) => {
                     verifyPayment(result.order_id).then((isValid) => {
                         if (isValid) {
-                            console.log("✅ Pembayaran terverifikasi")
                             setIsPaymentSuccess(true)
-
                             toast.success("Pembayaran berhasil!", {
                                 duration: 5000
                             })
